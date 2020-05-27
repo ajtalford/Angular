@@ -45,50 +45,7 @@ var employee3 = new Employee("Noah ", "Jackson ", "516-523-7843", "Brooklyn", "N
 document.getElementById("e3").innerHTML = employee3.fullInfo();
 var wages = new Employee("Jonathan ", " Long ", "704-724-3817", "Charlotte", "North Carolina", 28212, "Analyst");
 document.getElementById("e6").innerHTML = wages.totalWages();
-// this.FirstName = firstName;
-//         this.Lastname = lastName;
-//         this.PhoneNumber = phoneNumber;
-//         this.Location = location;
-//         this.State = state;
-//         this.ZipCode = zipCode;
-//         this.Occupation = occupation
-// // 10.Create an interface called EmployeeOptions (PersonOptions if you didn't rename to Employee) where the name values are required but the other parameters are optional. 
-// interface EmpOptions {
-//     FirstName: string;
-//     Lastname: string;
-//     PhoneNumber?: string;
-//     Location?: string;
-//     State?: string;
-//     ZipCode?: number;
-//     Occupation?: string;
-// }
-// const createOptions = (
-//     empOptions: EmpOptions
-// ): { FirstName: string; Lastname: string; PhoneNumber: string; Location: string; State: string; ZipCode: number; Occupation: string; } => {
-//     let newOptions = {
-//         FirstName: 'fistName5', Lastname: 'lastName5',
-//         PhoneNumber: 'none ', Location: 'none', State: 'none',
-//         ZipCode: 0, Occupation: 'none'
-//     }
-//     if (empOptions.PhoneNumber) {
-//         newOptions.PhoneNumber = empOptions.PhoneNumber;
-//         newOptions.Location = empOptions.Location;
-//         newOptions.State = empOptions.State;
-//         newOptions.ZipCode = empOptions.ZipCode;
-//         newOptions.Occupation = empOptions.Occupation;
-//     }
-//     return newOptions;
-// }
-// const employee7 = createOptions({
-//     FirstName: 'fistName7', Lastname: 'lastName7', PhoneNumber: 'num7 ', Location: 'Location7', State: 'State7',
-//     ZipCode: 11710, Occupation: 'Occupation7'
-// });
-// const employee8 = createOptions({ FirstName: 'firstName8', Lastname: 'lastName8' });
-// console.log(employee7);
-// console.log(employee8)
-// // document.getElementById("e5").innerHTML = employee8();
-// // var node = document.createElement("LI");                 // Create a <li> node
-// var textnode = document.createTextNode(employee8.toString());          
+   
 // 4. Compile the file again with tsc to ensure the syntax is correct.
 // 5. Create several people and, mimicing the method above, assign the output of some of their information to various <div> sections in your page.
 // 6. Add a hourlyWage property to the person (and if you want, rename the class to Employee ). 
